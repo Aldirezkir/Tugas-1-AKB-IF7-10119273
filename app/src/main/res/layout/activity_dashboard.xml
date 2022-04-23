@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--10119273
+    ALDI REZEKI RAMDANI
+    IF7-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:background="#E5E5E5"
+
+    >
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#C4C4C4"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/image_profile" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="ALDI REZEKI RAMDANI"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear1" />
+    <ImageView
+        android:id="@+id/imageToProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textProfil"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/ic_dashboard_black_24dp"
+        android:onClick="pindahProfil"
+        />
+
+    <ImageView
+        android:id="@+id/imageProfil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/imageToProfil"
+        app:srcCompat="@drawable/image_profil_1"
+        />
+
+    <ImageView
+        android:id="@+id/imageProfil12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/imageProfil1"
+        app:srcCompat="@drawable/image_profil_2"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

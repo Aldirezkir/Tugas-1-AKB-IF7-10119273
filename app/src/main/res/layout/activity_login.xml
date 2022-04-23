@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--10119273
+    ALDI REZEKI RAMDANI
+    IF7-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    android:backgroundTint="#E5E5E5"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/image_login" />
+
+    <TextView
+        android:id="@+id/textDescriptionLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Insert your Account"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textDescUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="Username"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/inputLoginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:background="@drawable/input_username"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/poppins_extralight"
+        android:hint=" Input username"
+        android:inputType="text"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/textViewPasswordLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Password"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/inputLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="8sp"
+        android:background="@drawable/input_username"
+        android:fontFamily="@font/poppins_extralight"
+        android:hint="@string/input_password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:onClick="pindahDashboard"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Or"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_extralight"
+        />
+
+    <TextView
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#2C53AB"
+        android:onClick="pindahRegister"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

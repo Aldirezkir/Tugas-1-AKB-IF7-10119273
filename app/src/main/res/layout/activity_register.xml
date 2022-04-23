@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--10119273
+    ALDI REZEKI RAMDANI
+    IF7-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@color/bg_background"
+    android:orientation="vertical"
+    android:padding="24dp"
+    >
+
+    <TextView
+        android:id="@+id/textRegsiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/imageRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_register"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textDescRegisterUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="14dp"
+        />
+    <EditText
+        android:id="@+id/inputRegisterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_username"
+        android:padding="8sp"
+        android:hint="Input usename"
+        android:textSize="16dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_extralight"
+        />
+    <TextView
+        android:id="@+id/textDescRegisterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="14dp"
+        />
+    <EditText
+        android:id="@+id/inputRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_username"
+        android:padding="8sp"
+        android:hint="Input Email"
+        android:textSize="16dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_extralight"
+        />
+    <TextView
+        android:id="@+id/textDescRegisterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="14dp"
+        />
+    <EditText
+        android:id="@+id/inputRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_username"
+        android:padding="8sp"
+        android:hint="Input Password"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins_extralight"
+        />
+    <TextView
+        android:id="@+id/textDescRegisterConfPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Confirm Password"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_light"
+        android:textSize="14dp"
+        />
+    <EditText
+        android:id="@+id/inputRegisterConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_username"
+        android:padding="8sp"
+        android:hint="Input Pasword"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins_extralight"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="24dp"
+
+        android:text="Register"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+
+        android:onClick="pindahLogin"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

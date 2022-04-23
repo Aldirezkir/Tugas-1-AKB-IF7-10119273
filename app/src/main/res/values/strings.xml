@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">10119273_ALDI</string>
+    <string name="input_password">input Password</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="aldi_rezeki_ramdnai">ALDI REZEKI RAMDNAI</string>
+    <string name="_10119273">10119273</string>
+    <string name="unikom_if_7_akb">UNIKOM - IF 7 - AKB</string>
+    <string name="lembang_bandung_barat">Lembang, Bandung Barat</string>
+</resources>
